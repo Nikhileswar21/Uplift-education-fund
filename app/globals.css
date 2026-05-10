@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-ivory: #FAF8F4;
+  --color-cream: #F5F0E8;
+  --color-teal: #1A6B5A;
+  --color-teal-light: #2A8B74;
+  --color-teal-dark: #0F4538;
+  --color-forest: #2C4A3E;
+  --color-gold: #C9973A;
+  --color-gold-light: #E8B85C;
+  --color-charcoal: #1C2422;
+  --color-slate: #4A5C58;
+  --color-muted: #8A9E99;
+  --color-border: #DDD8CE;
+}
+
+:root {
+  --background: #FAF8F4;
+  --foreground: #1C2422;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: #1A6B5A;
+  color: white;
+}
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #F5F0E8; }
+::-webkit-scrollbar-thumb { background: #1A6B5A; border-radius: 3px; }
+
+*:focus-visible {
+  outline: 2px solid #1A6B5A;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-24px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes progressFill {
+  from { width: 0%; }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.progress-fill {
+  animation: progressFill 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.delay-100 { animation-delay: 0.1s; }
+.delay-200 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; }
+.delay-400 { animation-delay: 0.4s; }
+.delay-500 { animation-delay: 0.5s; }
+
+.gradient-text {
+  background: linear-gradient(135deg, #1A6B5A 0%, #C9973A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.teal-gradient {
+  background: linear-gradient(135deg, #0F4538 0%, #1A6B5A 50%, #2A8B74 100%);
+}
+
+.ivory-gradient {
+  background: linear-gradient(180deg, #FAF8F4 0%, #F5F0E8 100%);
+}

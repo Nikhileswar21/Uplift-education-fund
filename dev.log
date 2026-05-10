@@ -1,0 +1,520 @@
+
+> app@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://172.20.0.21:3000
+✓ Ready in 261ms
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+
+○ Compiling / ...
+⨯ ./components/Footer.tsx:2:1
+Export Facebook doesn't exist in target module
+  [90m1 |[0m ...[36mt[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+[31m[1m>[0m [90m2 |[0m ...[36mt[0m { [33mHeart[0m, [33mMail[0m, [33mPhone[0m, [33mMapPin[0m, [33mTwitter[0m, [33mInstagram[0m, [33mLinkedin[0m, [33mFacebook[0m } [36mfrom[0m [32m"lucide-re...[0m
+  [90m  |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m ...
+  [90m4 |[0m ... footerLinks = {
+  [90m5 |[0m ...[33mgrams[0m: [
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Footer.tsx
+    ./app/layout.tsx
+
+
+
+./components/Footer.tsx:2:1
+Export Instagram doesn't exist in target module
+  [90m1 |[0m ...[36mt[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+[31m[1m>[0m [90m2 |[0m ...[36mt[0m { [33mHeart[0m, [33mMail[0m, [33mPhone[0m, [33mMapPin[0m, [33mTwitter[0m, [33mInstagram[0m, [33mLinkedin[0m, [33mFacebook[0m } [36mfrom[0m [32m"lucide-re...[0m
+  [90m  |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m ...
+  [90m4 |[0m ... footerLinks = {
+  [90m5 |[0m ...[33mgrams[0m: [
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Footer.tsx
+    ./app/layout.tsx
+
+
+
+./components/Footer.tsx:2:1
+Export Linkedin doesn't exist in target module
+  [90m1 |[0m ...[36mt[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+[31m[1m>[0m [90m2 |[0m ...[36mt[0m { [33mHeart[0m, [33mMail[0m, [33mPhone[0m, [33mMapPin[0m, [33mTwitter[0m, [33mInstagram[0m, [33mLinkedin[0m, [33mFacebook[0m } [36mfrom[0m [32m"lucide-re...[0m
+  [90m  |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m ...
+  [90m4 |[0m ... footerLinks = {
+  [90m5 |[0m ...[33mgrams[0m: [
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Footer.tsx
+    ./app/layout.tsx
+
+
+
+./components/Footer.tsx:2:1
+Export Twitter doesn't exist in target module
+  [90m1 |[0m ...[36mt[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+[31m[1m>[0m [90m2 |[0m ...[36mt[0m { [33mHeart[0m, [33mMail[0m, [33mPhone[0m, [33mMapPin[0m, [33mTwitter[0m, [33mInstagram[0m, [33mLinkedin[0m, [33mFacebook[0m } [36mfrom[0m [32m"lucide-re...[0m
+  [90m  |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m ...
+  [90m4 |[0m ... footerLinks = {
+  [90m5 |[0m ...[33mgrams[0m: [
+
+The export Twitter was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Footer.tsx
+    ./app/layout.tsx
+
+
+⨯ ./components/Footer.tsx:2:1
+Export Facebook doesn't exist in target module
+  [90m1 |[0m ...[36mt[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+[31m[1m>[0m [90m2 |[0m ...[36mt[0m { [33mHeart[0m, [33mMail[0m, [33mPhone[0m, [33mMapPin[0m, [33mTwitter[0m, [33mInstagram[0m, [33mLinkedin[0m, [33mFacebook[0m } [36mfrom[0m [32m"lucide-re...[0m
+  [90m  |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m ...
+  [90m4 |[0m ... footerLinks = {
+  [90m5 |[0m ...[33mgrams[0m: [
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Footer.tsx
+    ./app/layout.tsx
+
+
+
+./components/Footer.tsx:2:1
+Export Instagram doesn't exist in target module
+  [90m1 |[0m ...[36mt[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+[31m[1m>[0m [90m2 |[0m ...[36mt[0m { [33mHeart[0m, [33mMail[0m, [33mPhone[0m, [33mMapPin[0m, [33mTwitter[0m, [33mInstagram[0m, [33mLinkedin[0m, [33mFacebook[0m } [36mfrom[0m [32m"lucide-re...[0m
+  [90m  |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m ...
+  [90m4 |[0m ... footerLinks = {
+  [90m5 |[0m ...[33mgrams[0m: [
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Footer.tsx
+    ./app/layout.tsx
+
+
+
+./components/Footer.tsx:2:1
+Export Linkedin doesn't exist in target module
+  [90m1 |[0m ...[36mt[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+[31m[1m>[0m [90m2 |[0m ...[36mt[0m { [33mHeart[0m, [33mMail[0m, [33mPhone[0m, [33mMapPin[0m, [33mTwitter[0m, [33mInstagram[0m, [33mLinkedin[0m, [33mFacebook[0m } [36mfrom[0m [32m"lucide-re...[0m
+  [90m  |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m ...
+  [90m4 |[0m ... footerLinks = {
+  [90m5 |[0m ...[33mgrams[0m: [
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Footer.tsx
+    ./app/layout.tsx
+
+
+
+./components/Footer.tsx:2:1
+Export Twitter doesn't exist in target module
+  [90m1 |[0m ...[36mt[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+[31m[1m>[0m [90m2 |[0m ...[36mt[0m { [33mHeart[0m, [33mMail[0m, [33mPhone[0m, [33mMapPin[0m, [33mTwitter[0m, [33mInstagram[0m, [33mLinkedin[0m, [33mFacebook[0m } [36mfrom[0m [32m"lucide-re...[0m
+  [90m  |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m ...
+  [90m4 |[0m ... footerLinks = {
+  [90m5 |[0m ...[33mgrams[0m: [
+
+The export Twitter was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Footer.tsx
+    ./app/layout.tsx
+
+
+ GET / 500 in 5.2s (next.js: 5.1s, application-code: 77ms)
+ GET /?_cb=1778412946744 500 in 6.2s (next.js: 6.2s, application-code: 9ms)
+⚠ Blocked cross-origin request to Next.js dev resource /__nextjs_original-stack-frames from "3000-e95def50-7949-48a4-85d0-563e425654a2.orchids.cloud".
+Cross-origin access to Next.js dev resources is blocked by default for safety.
+
+To allow this host in development, add it to "allowedDevOrigins" in next.config.js and restart the dev server:
+
+// next.config.js
+module.exports = {
+  allowedDevOrigins: ['3000-e95def50-7949-48a4-85d0-563e425654a2.orchids.cloud'],
+}
+
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[browser] Uncaught Error: ./components/Footer.tsx:2:1
+Export Facebook doesn't exist in target module
+  1 | ...t Link from "next/link";
+> 2 | ...t { Heart, Mail, Phone, MapPin, Twitter, Instagram, Linkedin, Facebook } from "lucide-re...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | ...
+  4 | ... footerLinks = {
+  5 | ...grams: [
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Footer.tsx
+    ./app/layout.tsx
+
+
+    at <unknown> (Error: ./components/Footer.tsx:2:1)
+    at <unknown> (Error: (./components/Footer.tsx:2:1)
+⚠ Blocked cross-origin request to Next.js dev resource /__nextjs_font/geist-mono-latin.woff2 from "3000-e95def50-7949-48a4-85d0-563e425654a2.orchids.cloud".
+Cross-origin access to Next.js dev resources is blocked by default for safety.
+
+To allow this host in development, add it to "allowedDevOrigins" in next.config.js and restart the dev server:
+
+// next.config.js
+module.exports = {
+  allowedDevOrigins: ['3000-e95def50-7949-48a4-85d0-563e425654a2.orchids.cloud'],
+}
+
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+⚠ Blocked cross-origin request to Next.js dev resource /__nextjs_font/geist-latin.woff2 from "3000-e95def50-7949-48a4-85d0-563e425654a2.orchids.cloud".
+Cross-origin access to Next.js dev resources is blocked by default for safety.
+
+To allow this host in development, add it to "allowedDevOrigins" in next.config.js and restart the dev server:
+
+// next.config.js
+module.exports = {
+  allowedDevOrigins: ['3000-e95def50-7949-48a4-85d0-563e425654a2.orchids.cloud'],
+}
+
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+⨯ ./components/Footer.tsx:2:1
+Export Facebook doesn't exist in target module
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+[31m[1m>[0m [90m2 |[0m [36mimport[0m { [33mHeart[0m, [33mMail[0m, [33mPhone[0m, [33mMapPin[0m, [33mInstagram[0m, [33mLinkedin[0m, [33mFacebook[0m, [33mX[0m } [36mfrom[0m [32m"lucide-react"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m
+  [90m4 |[0m [36mconst[0m footerLinks = {
+  [90m5 |[0m   [33mPrograms[0m: [
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Footer.tsx
+    ./app/layout.tsx
+
+
+
+./components/Footer.tsx:2:1
+Export Instagram doesn't exist in target module
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+[31m[1m>[0m [90m2 |[0m [36mimport[0m { [33mHeart[0m, [33mMail[0m, [33mPhone[0m, [33mMapPin[0m, [33mInstagram[0m, [33mLinkedin[0m, [33mFacebook[0m, [33mX[0m } [36mfrom[0m [32m"lucide-react"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m
+  [90m4 |[0m [36mconst[0m footerLinks = {
+  [90m5 |[0m   [33mPrograms[0m: [
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Footer.tsx
+    ./app/layout.tsx
+
+
+
+./components/Footer.tsx:2:1
+Export Linkedin doesn't exist in target module
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+[31m[1m>[0m [90m2 |[0m [36mimport[0m { [33mHeart[0m, [33mMail[0m, [33mPhone[0m, [33mMapPin[0m, [33mInstagram[0m, [33mLinkedin[0m, [33mFacebook[0m, [33mX[0m } [36mfrom[0m [32m"lucide-react"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m
+  [90m4 |[0m [36mconst[0m footerLinks = {
+  [90m5 |[0m   [33mPrograms[0m: [
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Footer.tsx
+    ./app/layout.tsx
+
+
+ GET /?_cb=1778412946744 500 in 28ms (next.js: 12ms, application-code: 15ms)
+⨯ ./components/Footer.tsx:2:1
+Export Facebook doesn't exist in target module
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+[31m[1m>[0m [90m2 |[0m [36mimport[0m { [33mHeart[0m, [33mMail[0m, [33mPhone[0m, [33mMapPin[0m, [33mInstagram[0m, [33mLinkedin[0m, [33mFacebook[0m, [33mX[0m } [36mfrom[0m [32m"lucide-react"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m
+  [90m4 |[0m [36mconst[0m footerLinks = {
+  [90m5 |[0m   [33mPrograms[0m: [
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Footer.tsx
+    ./app/layout.tsx
+
+
+
+./components/Footer.tsx:2:1
+Export Instagram doesn't exist in target module
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+[31m[1m>[0m [90m2 |[0m [36mimport[0m { [33mHeart[0m, [33mMail[0m, [33mPhone[0m, [33mMapPin[0m, [33mInstagram[0m, [33mLinkedin[0m, [33mFacebook[0m, [33mX[0m } [36mfrom[0m [32m"lucide-react"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m
+  [90m4 |[0m [36mconst[0m footerLinks = {
+  [90m5 |[0m   [33mPrograms[0m: [
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Footer.tsx
+    ./app/layout.tsx
+
+
+
+./components/Footer.tsx:2:1
+Export Linkedin doesn't exist in target module
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+[31m[1m>[0m [90m2 |[0m [36mimport[0m { [33mHeart[0m, [33mMail[0m, [33mPhone[0m, [33mMapPin[0m, [33mInstagram[0m, [33mLinkedin[0m, [33mFacebook[0m, [33mX[0m } [36mfrom[0m [32m"lucide-react"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m
+  [90m4 |[0m [36mconst[0m footerLinks = {
+  [90m5 |[0m   [33mPrograms[0m: [
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Footer.tsx
+    ./app/layout.tsx
+
+
+ GET /?_cb=1778412946744 500 in 18ms (next.js: 7ms, application-code: 11ms)
+[browser] Uncaught Error: ./components/Footer.tsx:2:1
+Export Facebook doesn't exist in target module
+  1 | import Link from "next/link";
+> 2 | import { Heart, Mail, Phone, MapPin, Instagram, Linkedin, Facebook, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | const footerLinks = {
+  5 |   Programs: [
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Footer.tsx
+    ./app/layout.tsx
+
+
+    at <unknown> (Error: ./components/Footer.tsx:2:1)
+    at <unknown> (Error: (./components/Footer.tsx:2:1)
+⨯ ./components/Footer.tsx:2:1
+Export Facebook doesn't exist in target module
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+[31m[1m>[0m [90m2 |[0m [36mimport[0m { [33mHeart[0m, [33mMail[0m, [33mPhone[0m, [33mMapPin[0m, [33mInstagram[0m, [33mLinkedin[0m, [33mFacebook[0m, [33mX[0m } [36mfrom[0m [32m"lucide-react"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m
+  [90m4 |[0m [36mconst[0m footerLinks = {
+  [90m5 |[0m   [33mPrograms[0m: [
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Footer.tsx
+    ./app/layout.tsx
+
+
+
+./components/Footer.tsx:2:1
+Export Instagram doesn't exist in target module
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+[31m[1m>[0m [90m2 |[0m [36mimport[0m { [33mHeart[0m, [33mMail[0m, [33mPhone[0m, [33mMapPin[0m, [33mInstagram[0m, [33mLinkedin[0m, [33mFacebook[0m, [33mX[0m } [36mfrom[0m [32m"lucide-react"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m
+  [90m4 |[0m [36mconst[0m footerLinks = {
+  [90m5 |[0m   [33mPrograms[0m: [
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Footer.tsx
+    ./app/layout.tsx
+
+
+
+./components/Footer.tsx:2:1
+Export Linkedin doesn't exist in target module
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+[31m[1m>[0m [90m2 |[0m [36mimport[0m { [33mHeart[0m, [33mMail[0m, [33mPhone[0m, [33mMapPin[0m, [33mInstagram[0m, [33mLinkedin[0m, [33mFacebook[0m, [33mX[0m } [36mfrom[0m [32m"lucide-react"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m
+  [90m4 |[0m [36mconst[0m footerLinks = {
+  [90m5 |[0m   [33mPrograms[0m: [
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Footer.tsx
+    ./app/layout.tsx
+
+
+ GET / 500 in 17ms (next.js: 7ms, application-code: 10ms)
+✓ Compiled in 196ms
+⨯ ReferenceError: X is not defined
+    at module evaluation (components/Footer.tsx:26:11)
+    at module evaluation (app/layout.tsx:5:1)
+    at module evaluation (.next/dev/server/chunks/ssr/[root-of-the-server]__09fyid1._.js:536:47)
+  24 |
+  25 | const socials = [
+> 26 |   { icon: X, href: "#", label: "Twitter" },
+     |           ^
+  27 |   { icon: Instagram, href: "#", label: "Instagram" },
+  28 |   { icon: Linkedin, href: "#", label: "LinkedIn" },
+  29 |   { icon: Facebook, href: "#", label: "Facebook" },
+⨯ ReferenceError: X is not defined
+    at module evaluation (components/Footer.tsx:26:11)
+    at module evaluation (app/layout.tsx:5:1)
+    at module evaluation (.next/dev/server/chunks/ssr/[root-of-the-server]__09fyid1._.js:536:47)
+  24 |
+  25 | const socials = [
+> 26 |   { icon: X, href: "#", label: "Twitter" },
+     |           ^
+  27 |   { icon: Instagram, href: "#", label: "Instagram" },
+  28 |   { icon: Linkedin, href: "#", label: "LinkedIn" },
+  29 |   { icon: Facebook, href: "#", label: "Facebook" }, {
+  page: '/'
+}
+ GET /?_cb=1778412946744 500 in 815ms (next.js: 795ms, application-code: 20ms)
+⨯ ReferenceError: X is not defined
+    at module evaluation (components/Footer.tsx:26:11)
+    at module evaluation (app/layout.tsx:5:1)
+    at module evaluation (.next/dev/server/chunks/ssr/[root-of-the-server]__09fyid1._.js:536:47)
+  24 |
+  25 | const socials = [
+> 26 |   { icon: X, href: "#", label: "Twitter" },
+     |           ^
+  27 |   { icon: Instagram, href: "#", label: "Instagram" },
+  28 |   { icon: Linkedin, href: "#", label: "LinkedIn" },
+  29 |   { icon: Facebook, href: "#", label: "Facebook" }, {
+  page: '/'
+}
+⨯ ReferenceError: X is not defined
+    at module evaluation (components/Footer.tsx:26:11)
+    at module evaluation (app/layout.tsx:5:1)
+    at module evaluation (.next/dev/server/chunks/ssr/[root-of-the-server]__09fyid1._.js:536:47)
+  24 |
+  25 | const socials = [
+> 26 |   { icon: X, href: "#", label: "Twitter" },
+     |           ^
+  27 |   { icon: Instagram, href: "#", label: "Instagram" },
+  28 |   { icon: Linkedin, href: "#", label: "LinkedIn" },
+  29 |   { icon: Facebook, href: "#", label: "Facebook" }, {
+  page: '/'
+}
+ GET /?_cb=1778412946744 500 in 458ms (next.js: 452ms, application-code: 5ms)
+[browser] Uncaught ReferenceError: X is not defined
+    at module evaluation (components/Footer.tsx:26:11)
+    at module evaluation (app/layout.tsx:5:1)
+    at module evaluation (app/layout.tsx:46:1)
+  24 |
+  25 | const socials = [
+> 26 |   { icon: X, href: "#", label: "Twitter" },
+     |           ^
+  27 |   { icon: Instagram, href: "#", label: "Instagram" },
+  28 |   { icon: Linkedin, href: "#", label: "LinkedIn" },
+  29 |   { icon: Facebook, href: "#", label: "Facebook" },
+✓ Compiled in 35ms
+⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+    at ignore-listed frames {
+  digest: '760225558'
+}
+ GET /?_cb=1778412946744 500 in 454ms (next.js: 7ms, application-code: 447ms)
+✓ Compiled in 36ms
+ GET /?_cb=1778413025639 200 in 128ms (next.js: 7ms, application-code: 120ms)
+[browser] Image with src "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&q=80" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[browser] Image with src "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "https://images.unsplash.com/photo-1588072432836-e10032774350?w=800&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=800&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=200&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=80&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=80&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+ GET /programs 200 in 580ms (next.js: 545ms, application-code: 35ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /programs?_cb=1778413025639 200 in 127ms (next.js: 4ms, application-code: 123ms)
+[browser] Image with src "https://images.unsplash.com/photo-1588072432836-e10032774350?w=800&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=800&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
